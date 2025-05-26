@@ -122,7 +122,7 @@ npm run dev
 |----------------|--------------------------------------------------------------------------------------------------|
 | 🧑‍🎓 Student      | Access training materials, take aptitude tests, view test scores, explore job listings, and track placement statistics. |
 | 🧑‍💼 Coordinator  | Admin-equivalent role: manage student accounts, oversee test and training module creation, post jobs, and access analytics.   |
-| 🧑‍🏫 Staff Advisor     | Verify student academic data, provide feedback, approve student profiles, and monitor their placement readiness.             |
+| 🧑‍🏫 Staff Advisor| Verify student academic data, provide feedback, approve student profiles, and monitor their placement readiness.             |
 | 👨‍🎓 Alumni       | Offer mentorship, share job referrals, post opportunities, and interact with students via the alumni panel.                   |
 
 
