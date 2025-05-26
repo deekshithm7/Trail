@@ -1,6 +1,6 @@
 # 🎓 Placement Management and Training System (MERN Stack)
 
-A full-stack web application designed to streamline the **college placement process** and enhance **student training** through role-based access, test automation, resource sharing, and analytics.
+A comprehensive **full-stack web application** built to modernize and streamline the **college placement and student training ecosystem**. This system offers **role-specific dashboards**, **automated aptitude testing**, **training resource sharing**, and **deep analytics** to empower students, coordinator, staff, and alumni in the placement lifecycle.
 
 ---
 
@@ -9,45 +9,61 @@ A full-stack web application designed to streamline the **college placement proc
 - [✨ Features](#-features)
 - [🧰 Tech Stack](#-tech-stack)
 - [🚀 Installation](#-installation)
-- [🧪 Usage](#-usage)
 - [👥 User Roles](#-user-roles)
-- [🌐 API Structure](#-api-structure)
 - [📸 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ---
 
 ## ✨ Features
 
-- 📚 **Training Resource Uploads** (Documents, Videos, Links)
-- 🧠 **Auto-Graded Aptitude Tests**
-- 📊 **Student & System Analytics**
-- 🔐 **Role-Based Dashboards**
-- 🧑‍🎓 **Student Progress Tracking**
-- 🧑‍🏫 **Staff Advisor Approvals & Feedback**
-- 👨‍💼 **Admin Management Panel**
-- 👩‍💼 **Alumni Mentorship and Opportunities**
-- 🔔 **Notifications for Jobs & Tests**
-- 🔍 **Smart Search and Filters**
+- 📚 **Training Resource Management**  
+  Upload and categorize learning materials including **PDFs**, **video links**, and **external resources**. Easy access for students based on topic or type.
+
+- 🧠 **Auto-Graded Aptitude Tests**  
+  Practice and test aptitude skills in various topics. Results are **automatically evaluated**, with instant performance feedback.
+
+- 📊 **Analytics Dashboard**  
+  Visual analytics for **student progress**, **test performance**, **resource usage**, and **placement statistics**.
+
+- 🔐 **Role-Based Access Control (RBAC)**  
+  Different users access features based on their roles: **Students**, **Coordinators**, **Staff Advisors**, and **Alumni**.
+
+- 🧑‍🎓 **Student Dashboard**  
+  Personalized view of test scores, recommended resources, job postings, and notifications.
+
+- 🧑‍🏫 **Staff Advisor Panel**  
+  Review and approve student details, monitor academic performance, and provide feedback on placement readiness.
+
+- 👨‍💼 **Coordinator Control Center**  
+  Manage training resources, job openings, test creation, student data, and system-wide analytics.
+
+- 👩‍💼 **Alumni Network Hub**  
+  Share mentorship advice, post referral/job openings, and track interaction history with current students.
+
+- 🔔 **Dynamic Notifications**  
+  Alerts for upcoming tests, new job postings, deadlines, and training updates.
+
+- 🔍 **Smart Filters & Search**  
+  Advanced search across resources, jobs, and student records using filters by category, tags, or keywords.
 
 ---
 
 ## 🧰 Tech Stack
 
-### Frontend
+### 🔹 Frontend
 - **React.js**
 - **Tailwind CSS**
 - **Axios**
 - **Lucide-react** (Icons)
 
-### Backend
-- **Node.js**
-- **Express.js**
-- **MongoDB with Mongoose**
+### 🔹 Backend
+- **Node.js + Express.js**
+- **MongoDB + Mongoose**
 - **JWT Authentication**
-- **Multer** (for file uploads)
-- **dotenv** for environment config
+- **Google OAuth**
+- **Multer** (file uploads)
+- **dotenv** (environment config)
 
 ---
 
@@ -84,7 +100,7 @@ npm start
 ```bash
 cd ../frontend
 npm install
-npm start
+npm run dev
 ```
 
 > Frontend runs on `http://localhost:3000`  
@@ -92,36 +108,16 @@ npm start
 
 ---
 
-## 🧪 Usage
+# 👥 User Roles
 
-- 📥 **Admins**: Upload training resources, create tests, manage users and jobs.
-- 🧑‍🎓 **Students**: Access learning materials, take tests, view their placement progress.
-- 🧑‍🏫 **Staff Advisors**: Approve student data and monitor individual performance.
-- 👨‍🎓 **Alumni**: Share job openings and guidance for juniors.
+| Role           | Description                                                                                          |
+|----------------|--------------------------------------------------------------------------------------------------|
+| 🧑‍🎓 Student      | Access training materials, take aptitude tests, view test scores, explore job listings, and track placement statistics. |
+| 🧑‍💼 Coordinator  | Admin-equivalent role: manage student accounts, oversee test and training module creation, post jobs, and access analytics.   |
+| 🧑‍🏫 Staff Advisor | Verify student academic data, provide feedback, approve student profiles, and monitor their placement readiness.             |
+| 👨‍🎓 Alumni       | Offer mentorship, share job referrals, post opportunities, and interact with students via the alumni panel.                   |
 
----
 
-## 👥 User Roles
-
-| Role        | Features |
-|-------------|----------|
-| **Student** | Take tests, access training, view jobs and placement stats. |
-| **Admin** | Manage users, placements, resources, and test analytics. |
-| **Staff Advisor** | Validate student details, monitor academic/progress reports. |
-| **Alumni** | Share mentorship and job referrals. |
-
----
-
-## 🌐 API Structure (Sample)
-
-- `POST /api/auth/register` – User registration  
-- `POST /api/auth/login` – User login  
-- `GET /api/resources` – Fetch training materials  
-- `POST /api/tests/submit` – Submit test answers  
-- `GET /api/analytics/student/:id` – Student analytics  
-- `GET /api/jobs` – Available job listings
-
----
 
 ## 📸 Screenshots
 
@@ -144,6 +140,3 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
