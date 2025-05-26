@@ -81,15 +81,23 @@ cd backend
 npm install
 ```
 
-Create a `.env` file in `/backend` and add:
+Create a `.env` file inside the `/backend` directory and add the following variables:
 
-```
-PORT=5000
-MONGO_URI=your_mongo_db_uri
-JWT_SECRET=your_jwt_secret
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-```
+```env
+PORT=8080
+MONGO_URI=your_mongo_db_uri_here
+SESSION_SECRET=your_session_secret_here
+
+BREVO_EMAIL=your_brevo_email_here
+BREVO_API_KEY=your_brevo_api_key_here
+
+GOOGLE_CLIENT_ID=your_google_client_id_here
+GOOGLE_CLIENT_SECRET=your_google_client_secret_here
+
+JWT_SECRET=your_jwt_secret_here
+
+FRONTEND_URL=http://localhost:5173
+API_BASE_URL=http://localhost:8080
 
 Run the server:
 ```bash
