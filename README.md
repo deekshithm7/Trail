@@ -19,14 +19,13 @@
 - **Donors**: Register, schedule donations, receive notifications, track history
 - **Hospitals**: Request and manage blood inventory, access donation logs
 - **Admins**: Approve requests, manage users and inventory
-- **Developers**: Contribute new features or fix bugs
 
 ## 💻 Tech Stack
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Language**: JavaScript
+
 
 
 ## 🚀 Installation
