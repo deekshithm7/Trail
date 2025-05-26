@@ -67,6 +67,22 @@ npm run dev
 ---
 
 ## 📸 Screenshots
+### 🏠 Landing Page
+![Landing Page](frontend/src/assets/Result/)
+
+### 🔐 Login Page
+![Login Page](frontend/src/assets/Result/)
+
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](frontend/src/assets/Result/)
+
+### 🏥 Hospital Dashboard
+![Hospital Dashboard](frontend/src/assets/Result/)
+
+### 🩸 Donor Dashboard
+![Donor Dashboard](frontend/src/assets/Result/)
+
+
 ---
 
 
@@ -83,4 +99,12 @@ Contributions are welcome!
 # Create a Pull Request
 ```
 
+---
+
+## 📬 Contact & Support
+
+If you face any issues or bugs, feel free to:
+
+- [Open an issue on GitHub Issues](https://github.com/Anupamak004/Hematohub/issues)
+- Contact the development team via the **Support** section in the application
 ---
