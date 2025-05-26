@@ -98,7 +98,7 @@ JWT_SECRET=your_jwt_secret_here
 
 FRONTEND_URL=http://localhost:5173
 API_BASE_URL=http://localhost:8080
-
+```
 Run the server:
 ```bash
 npm start
