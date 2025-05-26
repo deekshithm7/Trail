@@ -1,4 +1,4 @@
-# 🎓 Placement Management and Training System (MERN Stack)
+# 🎓 Placement Management and Training System
 
 A comprehensive **full-stack web application** built to modernize and streamline the **college placement and student training ecosystem**. This system offers **role-specific dashboards**, **automated aptitude testing**, **training resource sharing**, and **deep analytics** to empower students, coordinator, staff, and alumni in the placement lifecycle.
 
@@ -71,7 +71,7 @@ A comprehensive **full-stack web application** built to modernize and streamline
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/placement-management-system.git
+git clone https://github.com/deekshithm7/placement-management-system.git
 cd placement-management-system
 ```
 
@@ -111,12 +111,12 @@ npm install
 npm run dev
 ```
 
-> Frontend runs on `http://localhost:3000`  
-> Backend runs on `http://localhost:5000`
+> Frontend runs on `http://localhost:5173`  
+> Backend runs on `http://localhost:8080`
 
 ---
 
-# 👥 User Roles
+## 👥 User Roles
 
 | Role           | Description                                                                                          |
 |----------------|--------------------------------------------------------------------------------------------------|
